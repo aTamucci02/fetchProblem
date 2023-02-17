@@ -71,5 +71,7 @@ def mergeSort(transList):
             k += 1
             
     return transList
-#TODO need to move the payerList method up. Need to make list of payers ealier.
+#TODO need to move the payerList method up. Need to make list of payers ealier. 
+# Otherwise you check points and you return error. I think I need to return a list of the values as 0
+#change
 print(spendPoints(int(sys.argv[1]),sys.argv[2]))
