@@ -1,0 +1,22 @@
+1. I chose to use python becuase of the tools that it provides for comparing
+strings as well as the ability to use dictionaries to map payer to their point values. I am also most comfortable with python
+and java and I thought my python solution was more elegant so I used python for comfortability as well.
+I utilized a merge sort to organize the transactions by date because it is an efficient sort method.
+I could have used quick sort as well because they are both n log n efficiency but I prefer merge sort 
+
+2. My solution is efficient in the way it counts the points. It does not have the capability to keep track of 
+all of the transactions organzied by payer. If I were to attempt to locate all of the transactions from Dannon for example,
+I would need to iterate through the entire list of transactions. I considered using an object oriented method that would make
+each payer their own object that would contain total points, as well as a list of the transactions with that payer. The reason
+I did not use this solution is becuase it would still require me to save a full list of transaction. It did not help solve the 
+problem i was given, but I could see this being a useful tool in the larger context of the fetch system. A disadvantage of my
+solution is that python runs slowly compared to other languages. If my code were to be scaled up in python, it would be slower
+solutions in other languages. 
+
+3. My favorite proejct that I have worked on was to read in a text file of 50 poker hands of 2 different players and return
+which player won more hands. The assignemnt was meant to be done in java. This porject challenged me to think in an object oriented
+way. To tackle this, I first created a card class. Each card held was represented as a 2 or 3 character string: first the suit
+then the value that was represented as 1-10, J,Q,K. I gave each card a string suit attribute and an int value. I then created
+methods to compare cards. Next, I created a hand class to help me differentiate between a single card and a whole hand. I
+was able to look for specific cards that would be required to complete a royal flush or a two pair. Each type of hand was given
+a value and ties were broken by comparing specific cards. This was a great exercise more allowing me to think in terms of objects.
